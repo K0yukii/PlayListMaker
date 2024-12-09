@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/but_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@color/black"
+        android:contentDescription="Назад" />
+
+    <ImageButton
+        android:layout_width="367dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:src="@drawable/ic_setbutton"
+        tools:ignore="ContentDescription">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/butlist"
+        android:layout_width="367dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_butlist"
+        tools:ignore="ContentDescription"
+        android:contentDescription="@string/theme_toggle_button">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/butshare"
+        android:layout_width="367dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_butshare"
+        tools:ignore="ContentDescription">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/butsup"
+        android:layout_width="367dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_butsup"
+        tools:ignore="ContentDescription">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/butpol"
+        android:layout_width="367dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_butpol"
+        android:text="https://vivt.ru/"
+        tools:ignore="ContentDescription">
+
+
+    </ImageButton>
+
+
+</LinearLayout>
+
+
+

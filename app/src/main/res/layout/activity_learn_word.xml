@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/learn_word"
+    android:background="@color/material_dynamic_primary50"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Playlist maker"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        tools:Text="Playlist maker"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <ImageButton
+        android:id="@+id/number1"
+        android:layout_width="328dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_button1"/>
+    <ImageButton
+        android:layout_width="328dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_button2"/>
+    <ImageButton
+        android:id="@+id/number3"
+        android:layout_width="328dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_button3"/>
+
+
+
+
+
+
+</LinearLayout>
